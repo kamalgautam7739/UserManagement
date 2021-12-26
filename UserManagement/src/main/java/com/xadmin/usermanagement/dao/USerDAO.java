@@ -18,7 +18,7 @@ import com.xadmin.usermanagement.bean.User;
 public class USerDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/userdb?useSSL=false";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "";
+	private String jdbcPassword = "1234";
 
 	private static final String INSERT_USERS_SQL = "INSERT INTO users" + "  (name, email, country) VALUES "
 			+ " (?, ?, ?);";
